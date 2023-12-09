@@ -1,0 +1,162 @@
+h1{
+    font-weight: bold;
+    text-align: center;
+    color:#6699CC;
+    text-shadow: 3px 3px 3px black;
+}
+h2{
+    margin-right: 29px;
+    font-family: 'Roboto';
+    padding-left: 15px;
+    color:#6699CC;
+    text-shadow: 1px 1px 1px black;
+}
+.inline{
+    display: flex;
+    padding-right: 10px;
+    padding-left: 10px;
+    justify-content: space-between;
+    max-width: fit-content;
+    max-height:fit-content;
+    margin-left: auto;
+    font-size: 1.4rem;
+    background-color: #003a6d83;
+   border-radius: 9px;
+
+}
+.nav{
+   border:solid 1px #6699CC;
+   border-radius: 5px;
+   margin-right: 2px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+.nav a{
+    text-decoration: none;
+}
+.nav:hover{
+    background-color: #6699CC;
+}
+
+.nav a:hover{
+    color:white;
+}
+h3{
+    /* border: 2px solid;
+    border-width: 2px;
+    border-color: lightblue;
+    border-radius: 5px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    align-content: center;
+    padding-left: 5px;
+    color:white;
+
+}
+
+.logo{
+    margin-top: 5px;
+    margin-right: auto;
+    max-width: 70vw;
+    text-align: center;
+    display: flex;
+}
+.logo2{
+    margin-left: 55px;
+}
+.logo img{
+    max-width: 35vw;
+    max-height: 35vh;
+    
+}
+.maincontent{
+    max-width: 75%;
+    font-size: 1.5rem;
+    display:flex;
+    
+}
+
+.myForm{
+    margin-top: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px black solid;
+    padding: 2px;
+    max-width: 35vw;
+    border-radius: 2px;
+    text-align: left;
+  
+}
+p{
+    margin-right: 29px;
+    font-family: 'Roboto';
+    padding-left: 15px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    
+}
+
+.formbutton{
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 1.5rem;
+}
+.header{
+    background-image: url("images/HeaderBackground.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.header2{
+    background-image: url("images/DogsHeader.jpg");
+    background-size: cover;
+    background-position: 50% 57%;
+    background-repeat: no-repeat;
+}
+.header3{
+    background-image: url("images/CatHeader.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.header4{
+    background-image: url("images/BirdHeader2.jpg");
+    background-position: 50% 35%;
+    background-repeat: no-repeat;
+    background-size:100%; 
+}
+body{
+    background-image: radial-gradient(#676767,#7f7b7b, #003B6D );
+}
+a{
+    color:white;
+}
+a:hover{
+    color: #6699CC;
+}
+#pexPert{
+    background-color: #BDBDBD;
+}
+#pexPert:hover{
+    border: 4px  dashed #003B6D;
+}
+#pexPert h3{
+    color:#6699CC;
+}
+
+#sticky{
+    position:fixed;
+    bottom: 30px;
+    right: 0;
+    max-width: 25%;
+}
+
+ul li{
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}

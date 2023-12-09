@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="header4">
+        
+    <div class="inline">
+    <div class="nav"><h3><a href="index.html">Home</a></h3></div>
+    <div class="nav"><h3><a href="Dogs.html">Dogs</a></h3></div>
+    <div class="nav"><h3><a href="Cats.html">Cats</a></h3></div>
+    <div class="nav"><h3><a href="Birds.html">Birds</a></h3></div>
+    <div class="nav" id="pexPert"><h3><a href="Pexpert.html">Talk to a Pexpert!</a></h3></div>
+    </div>
+    
+    
+    <div class="logo">
+    <img src="images/PPLogo.png" alt="Paradigm Pet Professionals Logo">
+    </div>
+</div>
+
+<div>
+    <main>
+
+        <div>
+                <h1>Meet Virtually with a Pet Expert (PexPert) Today!</h1>
+        </div>
+        
+                <form class="myForm" action="/submit_form" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br>
+                    <label for="phone">Phone Number:</label>
+                    <input type="phone" id="phone" name="phone" required>
+                    <br>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <label for="timezone">Time Zone:</label>
+                    <select id="timezone" name="timezone">
+                      <option value="CST">CST</option>
+                      <option value="EST">EST</option>
+                      <option value="PST">PST</option>
+                      <option value="MST">MST</option>
+                    </select>
+                <br>
+                <br>
+                    <!-- Radio buttons -->
+                    <label>Pet Type:</label>
+                    <br>
+
+                    <label for="Dog">Dog</label>
+                    <input type="radio" id="Dog" name="type" value="Dog">
+
+                    <label for="Cat">Cat</label>
+                    <input type="radio" id="Cat" name="type" value="Cat">
+                    
+                    <label for="Bird">Bird</label>
+                    <input type="radio" id="Bird" name="type" value="Bird">
+                    
+                    <br>
+
+                    <label for="petname">Pet Name:</label>
+                    <input type="petname" id="petname" name="petname" required>
+                    <br>
+                    <label for="petage">Pet Age:</label>
+                    <input type="petage" id="petage" name="petage" required>
+            
+                    <br>    
+                   
+                    <button class="formbutton" type="submit">Schedule a Consultation!</button>
+                  </form>
+           
+    </main>
+</div>
+
+
+
+<!--
+    Midnight Blue - #003B6D
+Blue Sky- #6699CC
+
+    Dim gray - #676767
+Silver- #BDBDBD
+
+-->    
+</body>
+</html>
